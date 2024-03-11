@@ -30,7 +30,7 @@ export class FormsComponent implements OnInit {
       this.results = data;
       this.filteredResults = data;
     });
-   }
+  }
 
   onSubmit(): void {
     let { showClosed, hour } = this.formGroup.value

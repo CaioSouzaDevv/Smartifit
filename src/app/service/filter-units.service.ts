@@ -67,7 +67,7 @@ export class FilterUnitsService {
 
     if(!showClosed) {
       intermediateResults = results.filter(location => location.opened === true);
-    }
+    } 
 
     if(hour){
       const OPEN_HOUR = OPENING_HOURS[hour as HOUR_INDEXES].first
